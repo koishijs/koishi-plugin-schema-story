@@ -1,0 +1,54 @@
+{
+  "name": "koishi-plugin-schema-story",
+  "description": "A story written in config schema",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Shigma <shigma10826@gmail.com>",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-schema-story.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-schema-story/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-schema-story",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "console",
+    "guide",
+    "story",
+    "schema",
+    "config",
+    "tutorial"
+  ],
+  "koishi": {
+    "browser": true,
+    "description": {
+      "en": "A story written in config schema",
+      "zh": "用插件配置写一部交互式小说！"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.10.0"
+  },
+  "devDependencies": {
+    "@koishijs/client": "^5.1.1",
+    "@types/node": "^20.4.4",
+    "esbuild": "^0.18.14",
+    "esbuild-register": "^3.4.2",
+    "koishi": "^4.11.1",
+    "typescript": "^5.1.6"
+  }
+}
